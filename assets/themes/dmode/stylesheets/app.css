@@ -1,0 +1,151 @@
+/* Foundation v2.1.5 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.gaga {
+padding-top: 20px;
+
+}
+
+#header {
+	height: 130px;
+	background:#333333;
+  color:#F0F0ED;
+  padding-top:20px;
+}
+
+#footer {
+	height: auto;
+	background:#333333;
+  color:#F0F0ED;	
+}
+#footer a {
+  color: #ffd700;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+#footer a:hover {
+  color: #ffd700;
+  /*color: #f0f0ed;*/
+  text-decoration: none;
+  font-weight:bold;
+  letter-spacing: 1px; 
+}
+#footer p {
+  color: #F0F0ED;
+}
+#footer h4 {
+  color: #F0F0ED;
+}
+
+
+
+#navigation-left li {
+  float: left;
+  margin: 0 5px;
+font-size:1.4em; 
+}
+
+#navigation-left li a {
+text-decoration:none;
+color:#F0F0ED;
+font-weight:bold; 
+}
+#navigation-left li a:hover {
+text-decoration:underline;
+color:#F0F0ED;  
+}
+#navigation-right li {
+  float: left;
+  margin: 0 5px;
+  font-size:1.4em; 
+}
+
+#navigation-right li a {
+text-decoration:none;
+color:#F0F0ED;
+font-weight:bold;  
+}
+#navigation-right li a:hover {
+text-decoration:underline;
+color:#F0F0ED;  
+}
+
+
+/* -----------------------------------------
+   Social Media Bar
+----------------------------------------- */
+
+.socialMedia {
+	background: url("../images/pixel_grey.png") repeat-x scroll 0 50% transparent;
+}
+
+.socalMediaButton {
+    background: none repeat scroll 0 0 #F0F0ED;
+    margin: 16px auto 0;
+    overflow: hidden;
+    padding: 0 16px;
+    width: 68px;
+}
+
+.socalMediaButton .float-left a {
+    background-position: left top;
+}
+
+.socalMediaButton .float-left a:hover {
+    background-position: left bottom;
+}
+
+.socalMediaButton .float-right a {
+    background-position: right top;
+}
+
+.socalMediaButton .float-right a:hover {
+    background-position: right bottom;
+}
+
+.socalMediaButton a {
+    background: url("../images/twitter_facebook.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 26px;
+    text-indent: -9999px;
+    width: 27px;
+}
+
+
+
+/* -----------------------------------------
+   Home
+----------------------------------------- */
+div.orbit-wrapper { 
+/*
+          height: 400px !important;*/
+          height: auto !important;
+}
+   
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
