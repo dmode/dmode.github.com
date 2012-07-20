@@ -82,6 +82,11 @@ ul.navigation-bar li.active{
 background-color:#3E8498;
 }
 
+.company-name-small {
+	margin-left: 10px;
+	font-family: "Courier New", Courier, monospace;
+}
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
