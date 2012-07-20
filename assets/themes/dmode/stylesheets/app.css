@@ -1,4 +1,29 @@
-/* Artfully masterminded by ZURB  */
+/* Artfully masterminded by dmode  */
+
+/* 
+http://colorschemedesigner.com/#3o21Tq5JJw0w0
+#####  Color Palette by Color Scheme Designer
+#####  Palette URL: http://colorschemedesigner.com/#3o21Tq5JJw0w0
+#####  Color Space: RGB; 
+
+
+
+*** Primary Color:
+
+   var. 1 = #2BA8CB = rgb(43,168,203)
+   var. 2 = #3E8498 = rgb(62,132,152)
+   var. 3 = #0E6A84 = rgb(14,106,132)
+   var. 4 = #5EC7E5 = rgb(94,199,229)
+   var. 5 = #82CFE5 = rgb(130,207,229)
+
+*** Complementary Color:
+
+   var. 1 = #FF982F = rgb(255,152,47)
+   var. 2 = #BF854A = rgb(191,133,74)
+   var. 3 = #A65B0F = rgb(166,91,15)
+   var. 4 = #FFB263 = rgb(255,178,99)
+   var. 5 = #FFC68D = rgb(255,198,141)
+*/
 
 /* --------------------------------------------------
    Table of Contents
@@ -12,8 +37,50 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
+body {
+	background-color: #2BA8CB;
+	color: #ffffff;
 
+}
 
+#header {
+	background-color: #ffffff;
+	height:100px;
+}
+#company-name{
+	padding-top: 60px;
+	font-size: 2em;
+	color: #FF982F;
+}
+
+#navigation {
+	margin-bottom: 10px;
+}
+
+ul.navigation-bar {
+	list-style-type: none;
+	margin-left:0;
+	padding-left:0;
+}
+
+ul.navigation-bar li {
+	float: left;
+	padding-right: 2px;
+}
+
+ul.navigation-bar li a {
+	color: #ffffff;
+	padding: 0.9em;
+	display:block;
+}
+
+ul.navigation-bar li a:hover{
+background-color:#3E8498;
+}
+
+ul.navigation-bar li.active{
+background-color:#3E8498;
+}
 
 /* -----------------------------------------
    Page Name 1
