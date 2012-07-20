@@ -33,7 +33,7 @@
   <div id="header">
     <div class="row">
       <div class="twelve columns">
-        <div id="company-name">{{ page.title }}</div>
+        <div id="company-name">dmode<small class="company-name-small">&lt;/web-development&gt;</small></div>
       </div>
     </div>
   </div>
@@ -41,17 +41,14 @@
   <div id="navigation" class="row">
     <div class="twelve columns">
       <ul class="navigation-bar">
-        <li class="active"><a href="/default.html">Home</a></li>
+        <li {% if page.url == "/index.html" %} class="active" {% endif %}><a href="/index.html">Home</a></li>
         <li><a href="/">Blog</a></li>
-        <li><a href="/">Portfolio</a></li>
-        <li><a href="/">Contact</a></li>
+        <li {% if page.url == "/portfolio/index.html" %} class="active" {% endif %}><a href="/portfolio">Portfolio</a></li>
+        <li {% if page.url == "/contact.html" %} class="active" {% endif %}><a href="/contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
-
     {{ content }}
-
-
   <!-- Included JS Files -->
   <script src="{{ ASSET_PATH }}/javascripts/jquery.min.js"></script>
   <script src="{{ ASSET_PATH }}/javascripts/jquery.reveal.js"></script>
@@ -60,6 +57,7 @@
   <script src="{{ ASSET_PATH }}/javascripts/jquery.placeholder.min.js"></script>
   <script src="{{ ASSET_PATH }}/javascripts/jquery.tooltips.js"></script>
   <script src="{{ ASSET_PATH }}/javascripts/app.js"></script>
+
   {% include JB/analytics %}
 
 </body>
