@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>dMode Webdevelopment</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/foundation.css">
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="{{ ASSET_PATH }}/javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+    {{ content }}
+
+
+  <!-- Included JS Files -->
+  <script src="{{ ASSET_PATH }}/javascripts/jquery.min.js"></script>
+  <script src="{{ ASSET_PATH }}/javascripts/jquery.reveal.js"></script>
+  <script src="{{ ASSET_PATH }}/javascripts/jquery.orbit-1.4.0.js"></script>
+  <script src="{{ ASSET_PATH }}/javascripts/jquery.customforms.js"></script>
+  <script src="{{ ASSET_PATH }}/javascripts/jquery.placeholder.min.js"></script>
+  <script src="{{ ASSET_PATH }}/javascripts/jquery.tooltips.js"></script>
+  <script src="{{ ASSET_PATH }}/javascripts/app.js"></script>
+  {% include JB/analytics %}
+
+</body>
+</html>
