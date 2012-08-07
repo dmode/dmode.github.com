@@ -91,6 +91,74 @@ background-color:#3E8498;
    Portfolio
 ----------------------------------------- */
 
+/* body {
+background-color: #654;
+font-family: arial;
+}
+
+#wrapper {
+text-align: center;
+} */
+
+#portfolio {
+position: relative;
+margin: 0 auto;
+width: 750px;
+}
+
+.portfolio {
+float: left;
+list-style: none;
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+.portfolio div {
+	position: absolut;
+	left: 0;
+	bottom: 30px;
+	height: 170px;
+	width: 220px;
+	color: #fff;
+	opacity: 0;
+}
+
+.portfolio li:hover div, .portfolio li:active div, .portfolio li:focus div {
+position: absolute;
+z-index: 3;
+left: 0px;
+bottom: 30px;
+height: 170px;
+text-align: left;
+color: #fff;
+opacity: 1;
+background: rgb(150,140,130);
+background: rgba(150,140,130,.9);
+}
+
+.portfolio div h3, .portfolio div p {
+margin: 10px 20px 20px 20px;
+padding:  0;
+}
+.portfolio div h3 {
+margin-top: 30px;
+}
+
+.portfolio li {
+float: left;
+text-align: left;
+width: 250;
+height: 200;
+margin: 0;
+padding:  0;
+position: relative;
+}
+
+.portfolio li a img {
+	border: 10px solid rgb(150,140,130);
+	border-color: rgba(150,140,130,.5) rgba(150,140,130,.505);
+}
 
 
 
