@@ -48,7 +48,7 @@ body {
 	height:100px;
 }
 #company-name{
-	padding-top: 60px;
+	padding-top: 50px;
 	font-size: 2em;
 	color: #FF982F;
 }
@@ -153,6 +153,21 @@ ul.navigation-bar li.active{
 
 
 /* -----------------------------------------
-   Page Name 2
+   home
 ----------------------------------------- */
 
+.bg-code {
+	background-image: url('/images/pagelogo.png');
+	height: 200px;
+	background-repeat:no-repeat;
+}
+
+/* -----------------------------------------
+   media
+----------------------------------------- */
+@media only screen and (max-width: 767px) {
+	.company-name-small {
+		display: block;
+	}
+
+}
