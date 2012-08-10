@@ -38,8 +38,10 @@ http://colorschemedesigner.com/#3o21Tq5JJw0w0
    Shared Styles
 ----------------------------------------- */
 body {
-	background-color: #2BA8CB;
 	color: #ffffff;
+	background-color: #2BA8CB;	
+	background-image: url('../images/bg.png');
+
 
 }
 
