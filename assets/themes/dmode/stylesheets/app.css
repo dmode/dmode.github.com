@@ -43,6 +43,25 @@ body {
 
 }
 
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #A65B0F;	
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+
+hr { border: solid #3E8498; border-width: 1px 0 0; clear: both; margin: 22px 0 21px; height: 0; }
+
 #header {
 	background-color: #ffffff;
 	height:100px;
@@ -87,6 +106,13 @@ ul.navigation-bar li.active{
 	font-family: "Courier New", Courier, monospace;
 }
 
+.simple-ul {
+
+	list-style:none;
+}
+
+
+
 /* ---------------------------------------
    Portfolio
 ----------------------------------------- */
@@ -122,8 +148,10 @@ ul.navigation-bar li.active{
 	text-align: left;
 	color: #fff;
 	opacity: 1;
-	background: rgb(150,140,130);
-	background: rgba(150,140,130,.9);
+	background: rgb(14,106,132);
+	background: rgba(14,106,132,.9);
+	/*background: rgb(150,140,130);
+	background: rgba(150,140,130,.9);*/
 }
 
 .portfolio div h3, .portfolio div p {
@@ -133,7 +161,13 @@ ul.navigation-bar li.active{
 .portfolio div h3 {
 	margin-top: 30px;
 	font-size: 22px;
+	color: #A65B0F;
 }
+
+.portfolio div h3 a {
+	color: #FFC68D;
+}
+
 
 .portfolio li {
 	float: left;
