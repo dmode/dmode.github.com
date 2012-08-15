@@ -13,9 +13,9 @@ title : hallo wer
 tagline: web-development1
 author :
   name : Graf Oliver
-  email : blah@email.test
+  email : 101@dmode.ch
   github : dmode
-  twitter : username
+  twitter : @101_dmode
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://dmode.github.com
+production_url : http://graf.nom.co
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -99,7 +99,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-34126718-1'
     getclicky :
       site_id : 
     mixpanel :
