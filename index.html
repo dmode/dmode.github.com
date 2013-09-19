@@ -1,28 +1,172 @@
----
-layout: page
-title: Home 
-header: Pages
-group: navigation
-tagline: Webdevs
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Oliver Graf Webdevelopment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-{% include JB/setup %}
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-<div class="row">
-	<div class="eight columns">
-		<h1>{{ page.title }}</h1>
-		<hr />
-		<p>
-		Willkommen auf meiner Webseite. Ich arbeite als Entwickler (Web und Windows) und erstelle Webseiten nebenberuflich.</p>
-		<p>Technologien die Ich einsetze sind HTML5, CSS3, Javascript, jQuery, Node.js, Knockout.js, ASP.Net WebApi, Umbraco, Jekyll, Middleman und andere.</p>
-		<p>Beispiele meiner Arbeiten können im Portfolio eingesehen werden.</p>	
-	</div>
-	<div class="four columns">
-		<h1>Aktuell</h1>
-		<hr />
-		<p>
-		<a href="http://www.evk-faz.ch">Elternverein Website</a> redesign ist online. 
-		</p>
-	</div>
-</div>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
+    <link href="css/application.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34126718-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+  </head>
+
+  <body>
+      
+      <nav id="main-nav">
+        <ul id="navigation">
+            <li><a href="#home"><i class="icon-home"></i></a></li>
+            <li><a href="#portfolio"><i class="icon-gears"></i></a></li>
+            <li><a href="#aboutme"><i class="icon-male"></i></a></li>
+            <li><a href="#contact"><i class="icon-envelope"></i></a></li>
+        </ul>
+      </nav>
+    
+      <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                <h1>Oliver Graf &lt/webDev&gt</h1>
+                    <p>Willkommen auf meiner Webseite.
+                        Beispiele meiner Arbeiten sind unten ersichtlich.</p>
+                    <hr>
+                </div>
+            </div>  
+        </div>
+      </section>
+    
+    <section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <h2><i class="icon-gears"></i> Portfolio</h2>
+               <div class="slider-wrapper theme-dark">
+                    <div id="slider" class="nivoSlider">
+                        <a href="http://www.evk-faz.ch"><img src="img/evk-faz.jpg" data-thumb="img/evk-faz.jpg" alt="" title="Webseite Elternverein Küttigen-Rombach" /></a>
+                        <a href="http://chochclub.com"><img src="img/chochclub.jpg" data-thumb="img/chochclub.jpg" alt="" title="Webseite Chochclub Küttigen" /></a>
+                        <a href="https://www.elisabethgraf.ch"><img src="img/egraf.jpg" data-thumb="img/egraf.jpg" alt="" title="Webseite Elisabeth Graf" data-transition="slideInLeft" /></a>
+                        <a href="http://forsthaus.dmode.ch"><img src="img/forsthaus.jpg" data-thumb="img/forsthaus.jpg" alt="" title="Website Chalet Forsthaus Wengen" /></a>
+                        <a href="http://portal.smartshipper.ch"><img src="img/smsh.jpg" data-thumb="img/smsh.jpg" alt="" title="Smartshiper Portal"></a>
+                    </div>
+                </div>
+            <hr>                
+            </div>
+        </div>    
+    </div>  
+    
+    </section>      
+
+    <section id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                <h1><i class="icon-male"></i> Über mich</h1>
+                    <p>Mein Name ist Oliver Graf und ich arbeite seit mehreren Jahren als Entwickler.  Fachlich arbeite ich vor allem mit folgenden Technologien:</p>
+                    <ul class="technologies">
+                        <li>HTML5<i class="icon-html5 tech-icon"></i></li>
+                        <li>CSS3<i class="icon-css3 tech-icon"></i></li>
+                        <li>Javascript<i class="icon-code tech-icon"></i></li>
+                        <li>jQuery<i class="icon-code tech-icon"></i></li>
+                        <li>Knockout.js<i class="icon-code tech-icon"></i></li>
+                        <li>ASP.Net MVC<i class="icon-code tech-icon"></i></li>
+                        <li>ASP.Net Web API<i class="icon-code tech-icon"></i></li>
+                        <li>Umbraco CMS<i class="icon-file tech-icon"></i></li>
+                        <li>Jekyll<i class="icon-github-sign tech-icon"></i></li>
+                        <li>Middleman<i class="icon-github-sign tech-icon"></i></li>
+                        <li>VB.Net<i class="icon-code tech-icon"></i></li>
+                        <li>Node.js<i class="icon-code tech-icon"></i></li>
+                        <li>MS SQL Server<i class="icon-hdd tech-icon"></i></li>
+                        <li>Git<i class="icon-github tech-icon"></i></li>
+                        <li>Github<i class="icon-github tech-icon"></i></li>
+                        <li>Windows Azure<i class="icon-cloud tech-icon"></i></li>
+                    </ul>
+                    <div class="clearfix"></div><br>
+                    <p>Nebenberuflich erstelle ich Webseiten. Meine Arbeiten sind im Portfolio ersichtlich.</p>
+                    <hr>
+                </div>
+            </div>  
+        </div>
+      </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                <h1><i class="icon-envelope"></i> Kontakt</h1>
+                    <address>
+                    <strong>Oliver Graf</strong><br>
+                    Löchliweg 6<br>
+                    5024 Küttigen - Switzerland<br>
+                        <a href="mailto:101@dmode.ch"><i class="icon-envelope"></i> 101@dmode.ch</a><br>
+                    </address>
+                    
+                    <h3>Profile</h3>
+                    <ul class="profile">
+                        <li><a href="https://twitter.com/101_dmode/"><i class="icon-twitter profile-icon"></i>101_dmode</a></li>
+                        <li><a href="http://www.linkedin.com/pub/oliver-graf/34/8a9/61b"><i class="icon-linkedin profile-icon"></i>Oliver Graf</a></li>
+                        <li><a href="https://www.xing.com/profiles/Oliver_Graf43"><i class="icon-xing profile-icon"></i>Oliver Graf</a></li>
+                        <li><a href="https://www.facebook.com/oliver.graf.501"><i class="icon-facebook profile-icon"></i>Oliver Graf</a></li>
+                        <li><a href="https://github.com/dmode"><i class="icon-github profile-icon"></i>dmode</a></li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>  
+        </div>
+      </section>
+
+      <!-- the link that is positioned fixed on the right bottom corner -->
+      <div class="top-link">
+        <a href="#home"><i class="icon-double-angle-up"> </i>top</a>
+      </div>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script src="js/scrollme.js"></script> 
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+            randomStart: true
+        });
+    });
+        
+    $(document).ready(function() {
+    // calling the scroll me plugin on the navigation selector
+        $('#main-nav').scrollme({
+            duration: 1500
+        });
+        $('.top-link').scrollme({
+            duration: 1500
+        });
+    });
+    </script>
+
+  </body>
+</html>
